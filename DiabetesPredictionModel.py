@@ -46,8 +46,18 @@ test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
 #print('Accuracy score of the test data : ', test_data_accuracy)
 
 #Making a Predictive System
+preg=int(input('No of pregnancies you had;'))
+glu=int(input('Whats your Glucose;'))
+skthick=float(input('enter your skin thickness;'))
+insulin=float(input('enter your insulin;'))
+bp=float(input('enter your BP;'))
+bmi=float(input('enter your BMI;'))
+diabetespdf=float(input('enter your diabetes pedigree function;'))
+age=float(input('enter your age;'))
 
-input_data = (5,166,72,19,175,25.8,0.587,51)
+input_data = (preg,glu,bp,skthick,insulin,bmi,diabetespdf,age)
+
+
 
 # changing the input_data to numpy array
 inputdata_asnumpyarray = np.asarray(input_data)
