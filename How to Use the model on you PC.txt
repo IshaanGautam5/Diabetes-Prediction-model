@@ -4,4 +4,6 @@ To use this locally on your pc ;
 
 2.replace the path in line 9 of the code to the path of the file you have downloaded
 
+3. paste the code in any code editor and it should work(assuming all the dependencies are installed)
+
 3.You are good to go now!!!
