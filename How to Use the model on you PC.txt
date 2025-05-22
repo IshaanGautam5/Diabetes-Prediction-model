@@ -1,0 +1,7 @@
+To use this locally on your pc ;
+
+1. Download the dataset diabetes.csv on your pc or you can also download it from https://drive.google.com/drive/folders/1NEs0rpFelfzSWAJ6y832EDpW9ImQH4QJ
+
+2.replace the path in line 9 of the code to the path of the file you have downloaded
+
+3.You are good to go now!!!
